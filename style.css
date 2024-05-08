@@ -1,0 +1,61 @@
+*{
+    
+  
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+
+ 
+}
+
+
+.box{
+    height: 100vh;
+    background-image: url("./img/Vector.png"),url("./img/Vector1.png");
+    background-repeat: no-repeat;
+    background-position: right top,left bottom ;
+    background-size: 20%,40%;
+}
+header{
+    display: flex;
+ justify-content: space-between;
+}
+img{
+    gap: 30px;
+    margin: 100px;
+}
+header ul{
+display: flex;
+gap: 30px;
+text-decoration: none;
+}
+ ul{
+    list-style: none;
+ }
+   
+   
+header{
+ 
+    text-shadow: 5px 5px 5px red;
+    color: rgb(86, 54, 181);
+}
+.as{
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px 5px rgb(49, 46, 46);
+    background-color: white;
+    width: 150px;
+    height: 150px;
+
+
+}
+.ota{
+    display: flex;
+    align-items: center;
+}
+.soyalar-ota{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
